@@ -1,4 +1,4 @@
-''
+' '
 from csv import reader
 
 with open ('products.csv')
