@@ -1,16 +1,8 @@
-# This is a sample Python script.
+''
+from csv import reader
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+with open ('products.csv')
+    soongs_data=list(reader(data_file, encoding='utf-8-sig'))
+    format_soongs=[]
+    format_soongs=soongs_data.pop(0)
+    for item in soongs_data
